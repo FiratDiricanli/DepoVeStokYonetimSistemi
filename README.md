@@ -1,25 +1,27 @@
-📦 Depo ve Stok Yönetim Sistemi
-Bu proje, işletmelerin envanter takibini dijitalleştirmek ve stok giriş-çıkış süreçlerini otomatize etmek amacıyla geliştirilmiş C# Windows Forms tabanlı bir yönetim yazılımıdır.
+# 📦 Depo ve Stok Yönetim Sistemi
 
-🚀 Özellikler
-📥 Stok Giriş/Çıkış: Ürün ekleme ve çıkarma işlemlerinde otomatik miktar güncellemeleri.
+Depodaki ürünlerin sayısının ve giriş-çıkış hareketlerinin manuel olarak takip edildiği bir **C# Windows Forms** otomasyonudur.
 
-⚠️ Kritik Stok Uyarı: Belirlenen eşik değerinin altına düşen ürünler için sistem üzerinden bildirim.
+---
 
-🔍 Filtreleme: Ürünleri kategori ve stok durumuna göre anlık arama.
+## 🚀 Özellikler
 
-📊 Raporlama: Tüm envanterin DataGridView üzerinde profesyonel listelenmesi.
+*   📥 **Ürün Ekle:** Yeni stokların miktar ve isim bilgisiyle sisteme girilmesi.
+*   📤 **Stok Güncelle:** Ürün çıktıkça miktarın listeden düşürülmesi.
+*   ⚠️ **Düşük Stok:** Sayısı azalan ürünlerin görsel olarak (renk vb.) işaretlenmesi.
+*   📊 **Liste Görünümü:** Tüm ürünlerin güncel adetlerinin tablo halinde sunulması.
 
-🛠️ Teknolojiler
-Dil: C# (.NET)
+---
 
-Arayüz: Windows Forms
+## 🛠️ Kullanılan Teknolojiler
 
-Mimari: Nesne Tabanlı Programlama (OOP)
+*   **C# (Windows Forms)**
+*   **Generic Listeler**
 
-⚙️ Kurulum ve Çalıştırma
-Projeyi Açın: Visual Studio ile .sln veya .slnx dosyasını başlatın.
+---
 
-Derleyin: Üst menüden Build > Build Solution seçeneğine tıklayın.
+## ⚙️ Kurulum ve Çalıştırma
 
-Başlatın: F5 tuşuna basarak depo yönetim panelini açın.
+1.  Visual Studio ile ilgili solution dosyasını açın.
+2.  Ürün giriş formunu kullanarak deneme stokları oluşturun.
+3.  **F5** ile projeyi derleyip testleri gerçekleştirin.
